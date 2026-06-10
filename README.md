@@ -20,7 +20,7 @@ Some features are still under development and may use prototype logic, simulated
 
 ## 🚀 Live Demo
 
-**Website:** https:demo
+**Website:** [Click Here!](https://sustainability-carbon-clash.vercel.app/)
 
 ---
 
