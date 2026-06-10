@@ -1,0 +1,10 @@
+{
+  "name": "Carbon Clash",
+  "description": "An addictive, gamified carbon tracker for college students and young professionals. Features daily quests, virtual city building, custom share cards, and a server-side AI Sustainability Coach.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

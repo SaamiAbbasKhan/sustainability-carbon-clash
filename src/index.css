@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;405;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+
+  --color-slate-950: #050A08;
+  --color-slate-900: rgba(24, 24, 27, 0.4);
+  --color-slate-850: rgba(255, 255, 255, 0.08);
+  --color-slate-800: rgba(255, 255, 255, 0.05);
+  
+  --color-emerald-500: #10B981;
+  --color-emerald-400: #a3e635; /* maps to lime-400 */
+}
+
+/* Base override to ensure Immersive UI styles persist fully */
+body {
+  background-color: #050A08 !important;
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+/* Custom glow animations and aesthetic enhancements from matching spec */
+.shadow-glow {
+  box-shadow: 0 0 20px rgba(163, 230, 53, 0.25);
+}
+
+.text-glow {
+  text-shadow: 0 0 15px rgba(163, 230, 53, 0.4);
+}
+
+.header-accent-glow {
+  box-shadow: 0 0 20px rgba(163, 230, 53, 0.3);
+}
+
+/* Custom selection */
+::selection {
+  background-color: #a3e635;
+  color: #000000;
+}
