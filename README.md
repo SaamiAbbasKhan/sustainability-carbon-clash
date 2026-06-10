@@ -14,7 +14,6 @@ Some features are still under development and may use prototype logic, simulated
 
 * Authentication screens and onboarding flows are implemented; full backend authentication and authorization are still being integrated.
 * Certain sustainability calculations, progression systems, and environmental simulations are simplified for demonstration purposes.
-* The AI Sustainability Coach requires a valid Gemini API Key to provide personalized recommendations and environmental insights.
 * For the best experience, click the **Reset Data** button before exploring the platform, as some sections may contain pre-populated demonstration data used during development and testing.
 
 ---
@@ -218,14 +217,7 @@ The Virtual Grid transforms environmental education into an engaging gameplay ex
 
 ## 🌳 Sustainability Modules
 
-The Virtual Grid contains a growing ecosystem of sustainability modules including:
-
-* Native Trees
-* Community Gardens
-* Renewable Infrastructure
-* Conservation Assets
-* Future Unlockable Eco Technologies
-
+The Virtual Grid contains a growing ecosystem of sustainability modules.
 Each module serves two purposes:
 
 1. Generate in-game resources
@@ -272,29 +264,143 @@ Users repeatedly connect actions such as:
 with positive outcomes and meaningful rewards.
 
 ---
+# 🏆 Microsoft IQ Integration (AI Sustainability Coach)
 
-# 🤖 AI Sustainability Coach
+Carbon Clash implements Microsoft IQ-inspired intelligence patterns through contextual sustainability retrieval and personalized environmental guidance.
 
-Carbon Clash integrates the Gemini API to provide a personalized AI Sustainability Coach.
+Rather than generating generic sustainability advice, Carbon Clash retrieves relevant environmental knowledge from a curated sustainability knowledge base and combines it with user-specific context to produce grounded recommendations.
 
-## Features
+The platform draws inspiration from:
 
-* Analyzes sustainability profiles
-* Identifies improvement opportunities
-* Suggests practical eco-friendly actions
-* Provides motivational coaching
-* Delivers environmental insights
+### Foundry IQ Inspired Retrieval Layer
 
-### Example Recommendations
+Carbon Clash retrieves verified sustainability facts, environmental tips, and actionable challenges from a structured environmental knowledge base.
 
-* Reducing transportation emissions
-* Improving household energy efficiency
-* Adopting reusable alternatives
-* Strengthening waste reduction habits
+This ensures recommendations remain:
 
-### Gemini API Key Required
+- Grounded
+- Explainable
+- Consistent
+- Relevant
 
-A valid Gemini API Key is required to generate personalized recommendations and environmental insights.
+rather than relying on generic or hallucinated responses.
+
+### Work IQ Inspired Personalization Layer
+
+The platform analyzes:
+
+- Transportation habits
+- Dietary preferences
+- Sustainability profile data
+- Eco Power progression
+- User activity history
+
+to personalize which sustainability insights, challenges, and recommendations are presented.
+
+This transforms static environmental information into contextual sustainability intelligence.
+
+---
+
+# 🧠 Sustainability Intelligence Hub
+
+The Sustainability Intelligence Hub replaces traditional chatbot interactions with a focused sustainability knowledge retrieval experience.
+
+Users can ask about sustainability topics such as:
+
+- Transportation
+- Energy
+- Food
+- Trees
+- Climate
+- Water
+- Waste
+- Sustainability
+
+The system retrieves information directly from Carbon Clash's environmental knowledge base and combines it with user profile information to generate personalized sustainability insights.
+
+---
+
+## How It Works
+
+### Step 1 — User Query
+
+Users enter a sustainability topic or question.
+
+Example:
+
+```text
+transportation
+```
+
+or
+
+```text
+How can I improve my sustainability?
+```
+
+---
+
+### Step 2 — Context Analysis
+
+Carbon Clash analyzes:
+
+- Transportation profile
+- Diet profile
+- Energy profile
+- Sustainability activity
+
+to identify the user's most relevant improvement opportunities.
+
+---
+
+### Step 3 — Sustainability Knowledge Retrieval
+
+The platform searches a structured environmental knowledge base containing:
+
+- Sustainability facts
+- Practical recommendations
+- Environmental challenges
+- Educational insights
+
+---
+
+### Step 4 — Personalized Sustainability Intelligence
+
+Retrieved information is transformed into a structured report containing:
+
+### Retrieved Facts
+
+Relevant environmental information connected to the user's habits.
+
+### Actionable Tips
+
+Practical sustainability improvements that can be implemented immediately.
+
+### Recommended Challenges
+
+Suggested missions designed to improve environmental behavior.
+
+### Personalized Insight
+
+A contextual explanation showing where the user can create the greatest positive impact.
+
+---
+
+## Why This Exists
+
+Most sustainability applications provide generic recommendations.
+
+Carbon Clash instead focuses on contextual retrieval and explainable guidance.
+
+The objective is not simply to tell users what sustainability means.
+
+The objective is to help users understand:
+
+- Why specific actions matter
+- Where their biggest opportunities exist
+- Which habits produce meaningful environmental improvements
+
+This creates a more transparent and educational experience while remaining engaging and easy to understand.
 
 ---
 
@@ -443,7 +549,7 @@ Information remains understandable regardless of environmental expertise.
 
 ## AI Integration
 
-* Google Gemini API
+* For more complex tasks, you need an API key
 
 ## Visualization
 
@@ -529,6 +635,26 @@ This project is currently an MVP and serves as a proof of concept for how:
 can work together to create a more engaging sustainability experience.
 
 Feedback, ideas, and contributions are welcome.
+
+---
+# 🤖 GitHub Copilot Usage
+
+Carbon Clash was developed using GitHub Copilot as an AI-assisted development partner throughout the design and implementation process.
+
+GitHub Copilot contributed to:
+
+- Component scaffolding
+- React development
+- TypeScript implementation
+- UI generation
+- Rapid prototyping
+- Debugging workflows
+- Feature iteration
+- Architecture exploration
+
+Copilot significantly accelerated development by enabling rapid experimentation with gamification systems, sustainability simulations, dashboard interfaces, retrieval workflows, and interactive user experiences.
+
+The project demonstrates how AI-assisted development can help transform an ambitious concept into a working prototype within a limited development timeline.
 
 ---
 
