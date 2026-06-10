@@ -517,6 +517,44 @@ can work together to create a more engaging sustainability experience.
 Feedback, ideas, and contributions are welcome.
 
 ---
+# 👨‍💻 Developer Notes
+
+This project is currently an MVP and serves as a proof of concept for how:
+
+* Gamification
+* Artificial Intelligence
+* Environmental Simulations
+* Behavioral Psychology
+
+can work together to create a more engaging sustainability experience.
+
+Feedback, ideas, and contributions are welcome.
+
+---
+
+# 🚀 Quick Start
+
+### Prerequisites
+
+Make sure **Node.js** is installed on your system.
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+The application will start locally and be available in your browser.
+
+
+That's it! 🎉 Carbon Clash should now be running locally.
+---
 
 ## 🏷 Tags
 
