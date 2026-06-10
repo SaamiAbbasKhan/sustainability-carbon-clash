@@ -1,4 +1,5 @@
 # 🌍 Carbon Clash
+`Made for 'Agents League Hackathon'`
 
 ### *The Planet Changes When Habits Change.*
 
@@ -638,19 +639,6 @@ Feedback, ideas, and contributions are welcome.
 
 ---
 # 🤖 GitHub Copilot Usage
-
-Carbon Clash was developed using GitHub Copilot as an AI-assisted development partner throughout the design and implementation process.
-
-GitHub Copilot contributed to:
-
-- Component scaffolding
-- React development
-- TypeScript implementation
-- UI generation
-- Rapid prototyping
-- Debugging workflows
-- Feature iteration
-- Architecture exploration
 
 Copilot significantly accelerated development by enabling rapid experimentation with gamification systems, sustainability simulations, dashboard interfaces, retrieval workflows, and interactive user experiences.
 
